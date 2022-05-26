@@ -1,0 +1,32 @@
+double InitialBillAmount
+double FinalBill
+char Type
+int i
+
+            for (i=0; i<20; i++)
+
+            Read InitialBillAmount
+
+            Read Type
+
+            switch (Type)
+
+            Case F:
+FinalBill = InitialBillAmount – (InitialBillAmount * 0.20)
+
+            Case R:
+FinalBill = InitialBillAmount – (InitialBillAmount * 0.15)
+Add free sample to cart
+
+            Case C:
+FinalBill = InitialBillAmount – (InitialBillAmount * 0.10)
+Attach free coupon for next order
+
+            Print FinalBill
+
+            End switch
+
+            End for
+
+            Print “You have received a discount. Thank you for shopping with us.”
+
